@@ -16,7 +16,21 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça o login para acessar e analizar seu processo.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" id="caixa">
+                <div id="email">
+                    <p>
+                        <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="seu e-mail">
+                    </p>
+                </div>  
+                <div id="senha">
+                    <p>
+                        <input type="password" name="Senha" id="isenha" placeholder="sua senha">
+                    </p>
+                </div>
+                <p>
+                    <input id="enviar" type="submit" value="Enviar"> <br>
+                    <input id="esqueci" type="submit" value="Esqueci Senha">
+                </p>
 
                 </form>
 

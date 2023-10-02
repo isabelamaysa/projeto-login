@@ -5,6 +5,7 @@
 
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #login > div#imagem {
@@ -28,6 +29,7 @@
 
     #login{
         width: 990px;
+        height: 350px;
     }
 
     #login > div#imagem {

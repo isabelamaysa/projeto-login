@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Young+Serif&display=swap');
+
+:root{
+    --font-001: 'Poppins', sans-serif;
+    --font-002: 'Young Serif', serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #2987C2;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden; /*tudo q estiver fora da borda vai ficar escondido*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.470);
+    transition: width 0.3s, height 0.3s; /*animação de transição*/
+    transition-timing-function: ease; /*suavizar a animação*/
+}
+
+h1{
+    font-family: var(--font-002);
+}
+
+p{
+    font-family: var(--font-001);
+}
+
+#login > div#imagem {
+    display: block;
+    background: #2987C2 url(../imagens/foto01.jpg);
+    background-size: 630px;
+    background-position: center center;
+    height: 200px;
+}
+
+#login > div#formulario {
+    display: block;
+    padding: 10px;
+}

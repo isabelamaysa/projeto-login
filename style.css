@@ -1,0 +1,24 @@
+
+body {
+    background-image: url(foto01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow;
+}
+
+header{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 3px 4px black;
+}
+
+main > form {
+   width: 90vw;
+   background-color: #78c9fc;
+   padding: 15px;
+   margin: 10px;
+}
+
+main{
+    width: 500px;
+}

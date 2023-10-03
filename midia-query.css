@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px){
+    form{
+        width: 80vw;
+        height: 345px;
+        border-radius: 10px;
+    }
+    body{
+        background-size: 1200px;
+        background-position: top center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-size: cover;
+        background-position: top center;
+    }
+
+    form{
+        height: 350px;
+        border-radius: 10px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+    }
+
+    main > form{
+        display: block;
+        width: 860px;
+        text-align: center;
+        position: relative;
+    }
+}

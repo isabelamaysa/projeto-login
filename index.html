@@ -18,26 +18,21 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça o login para acessar e analizar seu processo.</p>
                 <form action="login.php" method="post" id="caixa">
-                <div id="email">
-                    <p>
-                        <span class="material-symbols-outlined">person</span>
-                        <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="seu e-mail">
-                        <label for="iemail">Login</label>
-                    </p>
-                </div>  
-                <div id="senha">
-                    <p>
-                        <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password">
-                        <label for="isenha">Senha</label>
-                    </p>
-                </div>
-                <div>
-                    <input id="enviar" type="submit" value="Entrar"> <br>
-                    <a href="esqueci.senha">Esqueci a senha <i class="material-symbols-outlined">mail</i> </a>
-                    <!--para puxar o icon do google (i class="nome do link">nome do icon</i>)-->
-                </div>
 
+                <div id="email">
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="seu e-mail"> <label for="iemail">Login</label>  
+                </div>  
+
+                <div id="senha">
+                    <span class="material-symbols-outlined">key</span>
+                    <input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password"><label for="isenha">Senha</label>  
+                </div>
+            
+                <input type="submit" value="Entrar"> 
+                <a href="esqueci.html" class="botao">Esqueci a senha <i class="material-symbols-outlined">mail</i> </a>
+                <!--para puxar o icon do google (i class="nome do link">nome do icon</i>)-->
+                
                 </form>
             </div>
         </section>

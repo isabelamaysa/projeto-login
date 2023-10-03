@@ -3,7 +3,7 @@ body {
     background-image: url(foto01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 header{

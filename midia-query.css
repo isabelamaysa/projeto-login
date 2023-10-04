@@ -1,7 +1,7 @@
 @media screen and (max-width: 1200px){
     form{
         width: 80vw;
-        height: 345px;
+        height: 352px;
         border-radius: 10px;
     }
     body{
@@ -17,7 +17,7 @@
     }
 
     form{
-        height: 350px;
+        height: 370px;
         border-radius: 10px;
         text-align: center;
         display: inline-block;

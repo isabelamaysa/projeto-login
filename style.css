@@ -22,3 +22,8 @@ main > form {
 main{
     width: 500px;
 }
+
+#final {
+    color: white;
+    text-shadow: 1px 3px 4px black;
+}

@@ -17,12 +17,15 @@ main > form {
    background-color: #78c9fc;
    padding: 15px;
    margin: 10px;
-   height: 357px;
+   height: 422px;
 }
 
-main{
-    width: 500px;
+main > form > p {
+    height: 6%;
 }
+
+
+
 
 #final {
     color: white;

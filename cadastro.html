@@ -14,17 +14,18 @@
             </h1>
         </header>
         <main>
-            <form action="cadastro.php" method="post">
+            <form action="cadastro.php" method="post" id="Cidadão">
         
                     <legend>Preencha com seus dados!</legend>
                     <p><!--servidor ou cidadão-->
                         <label for="iservidor">Para qual finalidade: </label>
-                        <select name="servidor" id="iservidor">
+                        <select name="servidor" id="iservidor" onclick="iservidor()">
                             <option value="">--Defina--</option>
                             <option value="cidadão--">Cidadão</option>
-                            <option value="servidor">Servidor</option>
+                            <option value="Funcionario">Funcionario</option>
                         </select>
                     </p>
+                    <p>Aqui é um Funcionario</p>
                     <p> <!--Nome completo-->
                         <label for="inome">Nome Completo:</label>
                         <input type="text" name="nome" id="inome" autocomplete="nome" required>
@@ -67,7 +68,67 @@
                     </p>
         
             </form>
-            <p id="final">Após finalizar seu cadastro, aguarde a confirmação que receberá no seu E-mail.</p>
+
+            <form action="cadastro.php" method="post" id="Funcionario">
+        
+                <legend>Preencha com seus dados!</legend>
+                <p><!--servidor ou cidadão-->
+                    <label for="iservidor">Para qual finalidade: </label>
+                    <select name="cidadao" id="icidadao" onclick="icidadao()">
+                        <option value="">--Defina--</option>
+                        <option value="cidadão--">Cidadão</option>
+                        <option value="funcionario">Funcionario</option>
+                    </select>
+                </p>
+                <p>Aqui é um Cidadão</p>
+                <p> <!--Nome completo-->
+                    <label for="inome">Nome Completo:</label>
+                    <input type="text" name="nome" id="inome" autocomplete="nome" required>
+                </p>
+                <p> <!--data de nascimento-->
+                    <label for="idata">Data de Nascimento: </label>
+                    <input type="date" name="Data" id="idata" value="03/10/2023">
+                </p>
+                <p> <!--sexo-->
+                    <label for="isexo">Sexo: </label>
+                    <select name="Sexo" id="isexo">
+                        <option value="" selected>---Escolha---</option>
+                            <option value="Fem">Feminino</option>
+                            <option value="Mas">Masculino</option>
+                            <option value="Nao">Prefiro não declarar</option>
+                    </select>
+                </p>
+                <p> <!--Estado e cidade-->
+                    <label for="iestado">Estado: </label>
+                    <select name="Estado" id="iestado">
+                        <option value="" selected>---Escolha---</option>
+                            <option value="mt">Mato-grosso</option>
+                    </select>
+                </p>
+                <p> <!--telefone-->
+                    <label for="itelefone">Telefone (com ddd): </label>
+                    <input type="tel" name="Telefone" id="itelefone" placeholder="(xx) xxxxx-xxxx">
+                </p>
+                <p> <!--email-->
+                    <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" required>
+                </p>
+                <p> <!--Criar senha-->
+                    <label for="isenha">Crie sua senha: </label>
+                    <input type="password" name="senha" id="isenha" required>
+                </p>
+                <p> <!--botão de enviar e limpar-->
+                    <input type="submit" value="Cadastrar">
+                    <input type="reset" value="Limpar">
+                </p>
+    
+        </form>
+        <p id="final">Após finalizar seu cadastro, aguarde a confirmação que receberá no seu E-mail.</p>
         </main>
+        <script>
+            function iservidor{
+                
+            }
+        </script>
 </body>
 </html>
